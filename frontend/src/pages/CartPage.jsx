@@ -3,7 +3,7 @@ import StatusMessage from '../components/StatusMessage.jsx';
 import { useCart } from '../context/CartContext.jsx';
 
 export default function CartPage() {
-  const { cart, total, itemCount, cartMessage, setQuantity, removeFromCart } = useCart();
+  const { cart, total, cartMessage, setQuantity, removeFromCart, itemCount } = useCart();
 
   return (
     <section>
